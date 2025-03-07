@@ -1,7 +1,7 @@
 # Praktikum_AI_Workflow
 2306141_Rabiul Tsani Ghifarulhaq A
 
- # Implementasi AI dalam Analisis dan Prediksi Penjualan Produk
+# Implementasi AI dalam Analisis dan Prediksi Penjualan Produk
 
 ## Deskripsi Proyek
 Proyek ini bertujuan untuk menerapkan kecerdasan buatan (AI) dalam menganalisis dan memprediksi penjualan produk. Dengan menggunakan metode machine learning, proyek ini dapat membantu dalam menentukan kebutuhan restock produk berdasarkan data historis penjualan.
@@ -19,23 +19,18 @@ Proyek ini bertujuan untuk menerapkan kecerdasan buatan (AI) dalam menganalisis 
 4. **Prediksi dan Visualisasi**  
    Model yang telah dilatih digunakan untuk membuat prediksi kebutuhan restock serta menampilkan visualisasi hubungan antara jumlah terjual, stok, dan keuntungan.
 
-## Teknologi yang Digunakan
-- Python
-- Pandas untuk manipulasi data
-- Scikit-learn untuk pelatihan model AI
-- Matplotlib dan Seaborn untuk visualisasi data
-
-## Cara Menjalankan Proyek
-1. Pastikan Python telah terinstal di sistem Anda.
-2. Instal dependensi dengan menjalankan perintah berikut:
-   ```sh
-   pip install pandas scikit-learn matplotlib seaborn
+## Cara Menjalankan Proyek di Google Colab
+1. Buka Google Colab di [colab.research.google.com](https://colab.research.google.com/)
+2. Buat notebook baru atau unggah file notebook yang telah disiapkan.
+3. Pastikan semua dependensi telah terinstal dengan menjalankan perintah berikut di sel pertama:
+   ```python
+   !pip install pandas scikit-learn matplotlib seaborn
    ```
-3. Jalankan skrip analisis dan prediksi:
-   ```sh
-   python main.py
+4. Unggah dataset ke Google Colab atau hubungkan ke Google Drive dengan perintah:
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
    ```
+5. Jalankan skrip analisis dan prediksi sesuai dengan urutan sel dalam notebook.
 
-## Kontributor
-- [Nama Anda]
 
